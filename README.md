@@ -1,39 +1,35 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+<img width="100" height="100"
+  alt="app logo"
+  src="https://github.com/symphony-mp/.github/blob/main/profile/logo.png?raw=true"
+/>
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+# symphony | engine
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+![License](https://img.shields.io/github/license/symphony-mp/symphony_engine)
+![Contributions Status](https://img.shields.io/badge/contributions-Closed-red)
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+An open source music player that contains the main local and offline features.
 
-## Features
+## 🧰 Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Coming soon...
 
-## Getting started
+## 🧑‍💻 Technologies
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+[![Made with Dart](https://img.shields.io/badge/frontend-Dart-purple)]((https://dart.dev/))
+[![Made with Flutter](https://img.shields.io/badge/frontend-Flutter-purple)]((https://flutter.dev/))
+[![style: very good analysis](https://img.shields.io/badge/code_style-Very_Good_Analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
 
-## Usage
+* [Dart(>=3.9.2)](https://dart.dev/)
+* [Flutter(>=3.35.6)](https://flutter.dev/)
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+## 🖥️ Platforms
 
-```dart
-const like = 'sample';
-```
+* Linux(snap) 🟡
+* macOS(>=12.4) ✅
+* Windows(>=10.0) 🟡
 
-## Additional information
+## 📜 Credits
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+* SoftYes TI [\<softyes.com.br\>](https://softyes.com.br)
+* João Sereia [\<joao.sereia@softyes.com.br\>](mailto:joao.sereia@softyes.com.br)
