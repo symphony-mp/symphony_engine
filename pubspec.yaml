@@ -4,7 +4,7 @@ description: "An open source music player that contains the main local and offli
 homepage: https://softyes.com.br
 repository: https://github.com/symphony-mp/symphony_engine
 
-version: 0.0.1
+version: 0.1.0
 
 environment:
   sdk: ^3.9.2
