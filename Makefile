@@ -1,4 +1,8 @@
-.PHONY: upgrade
+.PHONY: runner upgrade
+
+runner:
+	@echo "Running the build_runner..."
+	@fvm dart run build_runner build
 
 upgrade:
 	@echo "Upgrading dependencies..."
