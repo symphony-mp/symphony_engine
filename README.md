@@ -12,7 +12,7 @@ An open source music player that contains the main local and offline features.
 
 ## 🧰 Features
 
-Coming soon...
+* List of songs in the system's default music directory.
 
 ## 🧑‍💻 Technologies
 
