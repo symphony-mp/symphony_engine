@@ -6,4 +6,4 @@ analyzer:
 
   errors:
     document_ignores: ignore
-    public_member_api_docs: ignore
+    one_member_abstracts: ignore

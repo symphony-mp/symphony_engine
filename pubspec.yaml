@@ -1,18 +1,22 @@
 name: symphony_engine
 description: "An open source music player that contains the main local and offline features."
 
+publish_to: none
 homepage: https://softyes.com.br
 repository: https://github.com/symphony-mp/symphony_engine
 
 version: 0.1.0
 
 environment:
-  sdk: ^3.9.2
-  flutter: ^3.35.7
+  sdk: ^3.10.7
 
 dependencies:
   flutter:
     sdk: flutter
+
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  soft_metatags: ^0.1.0
 
 dev_dependencies:
   flutter_test:
