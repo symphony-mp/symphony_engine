@@ -1,14 +1,17 @@
 {
   "cSpell.words": [
     "audiotags",
+    "buildlog",
     "flac",
     "isrc",
+    "linux",
     "metatagger",
     "Metatagger",
     "metatags",
     "pubspec",
-    "softyes"
+    "softyes",
+    "softyesti"
   ],
-  "dart.flutterSdkPath": ".fvm/versions/3.38.8",
+  "dart.flutterSdkPath": ".fvm/versions/3.41.6",
   "makefile.configureOnOpen": false
 }

@@ -5,10 +5,11 @@ publish_to: none
 homepage: https://softyes.com.br
 repository: https://github.com/symphony-mp/symphony_engine
 
-version: 0.1.0
+version: 0.2.0
 
 environment:
-  sdk: ^3.10.7
+  sdk: ^3.11.4
+  flutter: ^3.41.6
 
 dependencies:
   flutter:
@@ -17,6 +18,7 @@ dependencies:
   path: ^1.9.1
   path_provider: ^2.1.5
   soft_metatags: ^0.1.0
+  xdg_directories: ^1.1.0
 
 dev_dependencies:
   flutter_test:
