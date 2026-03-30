@@ -1,16 +1,12 @@
 import 'dart:io';
 
 import 'package:path/path.dart' as p;
-import 'package:path_provider/path_provider.dart' as pp;
 import 'package:symphony_engine/src/domain/enums/file_extension_enum.dart';
 
-/// [StorageService] to handle storage and common system paths.
-abstract class StorageService {
+/// Service to handle storage and common system paths.
+abstract final class StorageService {
   /// Creates a new [StorageService].
   const StorageService();
-
-  /// Returns the user's music directory.
-  Future<Directory?> getMusicDir();
 
   /// List files from a [Directory] by filtering by [FileExtensionEnum].
   Stream<File> getFiles(
@@ -40,24 +36,6 @@ final class DefaultStorageService extends StorageService {
     }
 
     return stream.map((e) => File(e.path));
-  }
-
-  @override
-  Future<Directory?> getMusicDir() async {
-    final downloadDir = await pp.getDownloadsDirectory();
-    if (downloadDir == null) return null;
-
-    final musicDirPath = p.join(
-      downloadDir.path,
-      '..',
-      '..',
-      '..',
-      '..',
-      '..',
-      'Music',
-    );
-
-    return Directory(p.normalize(musicDirPath));
   }
 
   String _getFileExtension(String path) =>

@@ -8,8 +8,8 @@ import 'package:symphony_engine/src/domain/entities/metadata/genre_meta_entity.d
 import 'package:symphony_engine/src/domain/entities/metadata/song_meta_entity.dart';
 import 'package:symphony_engine/src/domain/entities/metadata/track_meta_entity.dart';
 
-/// [MetadataService] for handling audio file metadata.
-abstract class MetadataService {
+/// Service for handling audio file metadata.
+abstract final class MetadataService {
   /// Creates a new [MetadataService].
   const MetadataService();
 
