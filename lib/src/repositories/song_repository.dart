@@ -8,6 +8,9 @@ abstract class SongRepository {
 
   /// Returns the songs with metadata from the user's local library.
   Future<Iterable<SongEntity>?> getFromLibrary();
+
+  /// Disposes this [SongRepository].
+  Future<void> dispose();
 }
 
 /// Default implementation of [SongRepository].
@@ -35,4 +38,7 @@ final class DefaultSongRepository implements SongRepository {
     final songs = await _metadata.readAll(files);
     return songs.map(SongEntity.from);
   }
+
+  @override
+  Future<void> dispose() async {}
 }
