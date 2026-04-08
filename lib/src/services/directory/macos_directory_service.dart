@@ -19,4 +19,7 @@ final class MacOSDirectoryService extends DirectoryService {
 
     return Directory(p.normalize(stdout));
   }
+
+  @override
+  Future<void> dispose() async {}
 }

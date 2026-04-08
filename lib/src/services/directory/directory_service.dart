@@ -23,4 +23,7 @@ abstract final class DirectoryService {
 
   /// Get the user's downloads directory.
   Future<Directory?> getDownloads();
+
+  /// Disposes this [DirectoryService].
+  Future<void> dispose();
 }

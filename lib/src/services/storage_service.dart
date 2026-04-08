@@ -13,6 +13,9 @@ abstract final class StorageService {
     Directory directory, {
     List<FileExtensionEnum>? extensions,
   });
+
+  /// Disposes this [StorageService].
+  Future<void> dispose();
 }
 
 /// Default implementation of [StorageService].
@@ -40,4 +43,7 @@ final class DefaultStorageService extends StorageService {
 
   String _getFileExtension(String path) =>
       p.extension(path).replaceFirst('.', '').toLowerCase().trim();
+
+  @override
+  Future<void> dispose() async {}
 }

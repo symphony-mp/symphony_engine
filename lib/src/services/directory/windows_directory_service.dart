@@ -22,4 +22,7 @@ final class WindowsDirectoryService extends DirectoryService {
 
     return Directory(p.normalize(stdout));
   }
+
+  @override
+  Future<void> dispose() async {}
 }

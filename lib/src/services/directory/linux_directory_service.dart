@@ -10,4 +10,7 @@ final class LinuxDirectoryService extends DirectoryService {
 
   @override
   Future<Directory?> getDownloads() async => getUserDirectory('DOWNLOAD');
+
+  @override
+  Future<void> dispose() async {}
 }

@@ -18,6 +18,9 @@ abstract final class MetadataService {
 
   /// Reads the metadata from a [List] of [File].
   Future<Iterable<SongMetaEntity>> readAll(List<File> files);
+
+  /// Disposes this [MetadataService].
+  Future<void> dispose();
 }
 
 /// [DefaultMetadataService] is the implementation
@@ -130,4 +133,7 @@ final class DefaultMetadataService implements MetadataService {
         .map((a) => ArtistMetaEntity(name: a.name, picture: a.picture))
         .toList();
   }
+
+  @override
+  Future<void> dispose() async {}
 }
