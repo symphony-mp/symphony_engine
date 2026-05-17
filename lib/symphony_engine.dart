@@ -15,14 +15,14 @@ final class SymphonyEngine {
   const SymphonyEngine._();
 
   /// Initializes the [SymphonyEngine] library.
-  static Future<void> initialize() async {
+  static Future<void> init() async {
     await SoftMetaTags.initialize();
-    log('Initialized!', name: 'SymphonyEngine');
+    log('Initialized!', name: 'symphony_engine');
   }
 
   /// Disposes the [SymphonyEngine] library.
   static Future<void> dispose() async {
     SoftMetaTags.dispose();
-    log('Disposed!', name: 'SymphonyEngine');
+    log('Disposed!', name: 'symphony_engine');
   }
 }
